@@ -1,0 +1,9 @@
+]2;conda activate py39-esmfold]1;]2;esm-fold $@]1;24/01/29 06:30:12 | INFO | root | Reading sequences from /input/batch_5.fasta
+24/01/29 06:30:12 | INFO | root | Loaded 5 sequences from /input/batch_5.fasta
+24/01/29 06:30:12 | INFO | root | Loading model
+24/01/29 06:32:15 | INFO | root | Starting Predictions
+24/01/29 06:32:36 | INFO | root | Predicted structure for crab_mesau ALPHA CRYSTALLIN B CHAIN (ALPHA(B)-CRYSTALLIN). with length 175, pLDDT 57.1, pTM 0.455 in 4.3s (amortized, batch size 5). 1 / 5 completed.
+24/01/29 06:32:36 | INFO | root | Predicted structure for crab_mouse ALPHA CRYSTALLIN B CHAIN (ALPHA(B)-CRYSTALLIN) (P23). with length 175, pLDDT 57.4, pTM 0.459 in 4.3s (amortized, batch size 5). 2 / 5 completed.
+24/01/29 06:32:36 | INFO | root | Predicted structure for crab_rabit ALPHA CRYSTALLIN B CHAIN (ALPHA(B)-CRYSTALLIN). with length 175, pLDDT 57.1, pTM 0.456 in 4.3s (amortized, batch size 5). 3 / 5 completed.
+24/01/29 06:32:36 | INFO | root | Predicted structure for crab_rat ALPHA CRYSTALLIN B CHAIN (ALPHA(B)-CRYSTALLIN). with length 175, pLDDT 57.2, pTM 0.456 in 4.3s (amortized, batch size 5). 4 / 5 completed.
+24/01/29 06:32:36 | INFO | root | Predicted structure for crab_squac ALPHA CRYSTALLIN B CHAIN (ALPHA(B)-CRYSTALLIN). with length 177, pLDDT 56.7, pTM 0.451 in 4.3s (amortized, batch size 5). 5 / 5 completed.
