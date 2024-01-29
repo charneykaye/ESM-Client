@@ -6,7 +6,7 @@ import tqdm
 sequence_names = []
 fasta_sequences = []
 
-with open('inputs/input.fasta', 'r') as file:
+with open('inputs/input_old.fasta', 'r') as file:
     for line in file:
         line = line.strip()
         if line.startswith('>'):  # Start of a new sequence
@@ -75,4 +75,7 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
     futures = {executor.submit(generate_pdb, batch_file): batch_file for batch_file in batch_files}
     for future in tqdm.tqdm(concurrent.futures.as_completed(futures), total=len(futures), desc="Processing batch files"):
         result = future.result()  # Ensure the container has finished executing
-        print(f"Batch file {futures[future]} finished procesing")
+        # Process Comnplete Notif
+        batch_file_name = futures[future]
+        total_chars = sum(len(seq) for seq in fasta_sequences if seq)
+        print(f"Batch file {batch_file_name} finished processing with {total_chars} characters in fasta sequences.")
