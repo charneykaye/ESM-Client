@@ -1,3 +1,0 @@
-]2;conda activate py39-esmfold]1;]2;esm-fold $@]1;24/01/29 06:30:12 | INFO | root | Reading sequences from /input/batch_3.fasta
-24/01/29 06:30:12 | INFO | root | Loaded 5 sequences from /input/batch_3.fasta
-24/01/29 06:30:12 | INFO | root | Loading model
