@@ -2,6 +2,8 @@ docker run --rm --gpus all -v ./example/input:/input -v ./example/output:/output
 
 docker run --rm --gpus all -v ./example/input:/input -v ./example/output:/output rexpository/esmfold -i QVQLQESGPGLVAPSQSLSITCTVSGFSLTGYGVNWVRQPPGKGLEWLGMIWGDGNTDYNSALKSRLSISKDNSKSQVFLKMNSLHTDDTARYYCARERDYRLDYWGQGTTLTVSS:DIVLTQSPASLSASVGETVTITCRASGNIHNYLAWYQQKQGKSPQLLVYYTTTLADGVPSRFSGSGSGTQYSLKINSLQPEDFGSYYCQHFWSTPRTFGGGTKLEIK:KVFGRCELAAAMKRHGLANYRGYSLGNWVCAAKFESNFNTQATNRNTDGSTDYGILQINSRWWCNDGRTPGSRNLCNIPCSALLSSDITASVNCAKKIVSDGNGMNAWVAWRNRCKGTDVQAWIRGCRLX -o output > ./example/logs/pred.log 2>./example/logs/pred.err 
 
+
+
 docker run --rm --gpus all \
     -v ./example/input:/input \
     -v ./example/output:/output \
