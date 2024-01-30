@@ -1,0 +1,22 @@
+]2;conda activate py39-esmfold]1;]2;esm-fold $@]1;24/01/30 05:53:58 | INFO | root | Reading sequences from /input/batch_1.fasta
+24/01/30 05:53:58 | INFO | root | Loaded 18 sequences from /input/batch_1.fasta
+24/01/30 05:53:58 | INFO | root | Loading model
+24/01/30 05:54:57 | INFO | root | Starting Predictions
+24/01/30 05:55:20 | INFO | root | Predicted structure for ENSOCUP00000029490.1 pep chromosome:OryCun2.0:17:42772630:42772689:1 with length 19, pLDDT 80.1, pTM 0.020 in 2.1s (amortized, batch size 11). 1 / 18 completed.
+24/01/30 05:55:20 | INFO | root | Predicted structure for ENSOCUP00000044673.1 pep chromosome:OryCun2.0:17:42756289:42756363:1 with length 24, pLDDT 80.0, pTM 0.173 in 2.1s (amortized, batch size 11). 2 / 18 completed.
+24/01/30 05:55:20 | INFO | root | Predicted structure for ENSOCUP00000034508.1 pep chromosome:OryCun2.0:17:42777599:42777676:1 with length 25, pLDDT 73.7, pTM 0.163 in 2.1s (amortized, batch size 11). 3 / 18 completed.
+24/01/30 05:55:20 | INFO | root | Predicted structure for seq4 with length 62, pLDDT 69.0, pTM 0.572 in 2.1s (amortized, batch size 11). 4 / 18 completed.
+24/01/30 05:55:20 | INFO | root | Predicted structure for ENSOCUP00000019735.2 pep chromosome:OryCun2.0:4:37009625:37009870:1 g with length 81, pLDDT 70.7, pTM 0.478 in 2.1s (amortized, batch size 11). 5 / 18 completed.
+24/01/30 05:55:20 | INFO | root | Predicted structure for ENSOCUP00000048496.1 pep chromosome:OryCun2.0:21:4805627:4805890:1 ge with length 87, pLDDT 83.3, pTM 0.804 in 2.1s (amortized, batch size 11). 6 / 18 completed.
+24/01/30 05:55:20 | INFO | root | Predicted structure for ENSOCUP00000018422.2 pep chromosome:OryCun2.0:17:42506545:42507786:1 with length 104, pLDDT 81.8, pTM 0.819 in 2.1s (amortized, batch size 11). 7 / 18 completed.
+24/01/30 05:55:20 | INFO | root | Predicted structure for seq1 with length 107, pLDDT 66.7, pTM 0.613 in 2.1s (amortized, batch size 11). 8 / 18 completed.
+24/01/30 05:55:20 | INFO | root | Predicted structure for ENSOCUP00000018729.2 pep chromosome:OryCun2.0:3:56611417:56613406:1 g with length 112, pLDDT 49.9, pTM 0.181 in 2.1s (amortized, batch size 11). 9 / 18 completed.
+24/01/30 05:55:20 | INFO | root | Predicted structure for MCHU - Calmodulin - Human, rabbit, bovine, rat, and chicken with length 149, pLDDT 76.6, pTM 0.482 in 2.1s (amortized, batch size 11). 10 / 18 completed.
+24/01/30 05:55:20 | INFO | root | Predicted structure for crab_bovin ALPHA CRYSTALLIN B CHAIN (ALPHA(B)-CRYSTALLIN). with length 175, pLDDT 58.5, pTM 0.466 in 2.1s (amortized, batch size 11). 11 / 18 completed.
+24/01/30 05:55:35 | INFO | root | Predicted structure for crab_human ALPHA CRYSTALLIN B CHAIN (ALPHA(B)-CRYSTALLIN). with length 175, pLDDT 57.6, pTM 0.456 in 3.7s (amortized, batch size 4). 12 / 18 completed.
+24/01/30 05:55:35 | INFO | root | Predicted structure for crab_rat ALPHA CRYSTALLIN B CHAIN (ALPHA(B)-CRYSTALLIN). with length 175, pLDDT 57.3, pTM 0.457 in 3.7s (amortized, batch size 4). 13 / 18 completed.
+24/01/30 05:55:35 | INFO | root | Predicted structure for ENSOCUP00000016355.2 pep chromosome:OryCun2.0:2:59517952:59750601:1 g with length 201, pLDDT 34.7, pTM 0.105 in 3.7s (amortized, batch size 4). 14 / 18 completed.
+24/01/30 05:55:35 | INFO | root | Predicted structure for ENSOCUP00000009421.3 pep chromosome:OryCun2.0:3:442600:454640:-1 gene with length 227, pLDDT 80.3, pTM 0.527 in 3.7s (amortized, batch size 4). 15 / 18 completed.
+24/01/30 05:55:49 | INFO | root | Predicted structure for gi|186681228|ref|YP_001864424.1| phycoerythrobilin:ferredoxin oxidore with length 255, pLDDT 92.0, pTM 0.947 in 6.9s (amortized, batch size 2). 16 / 18 completed.
+24/01/30 05:55:49 | INFO | root | Predicted structure for gi|5524211|gb|AAD44166.1| cytochrome b [Elephas maximus maximus] with length 284, pLDDT 86.3, pTM 0.873 in 6.9s (amortized, batch size 2). 17 / 18 completed.
+24/01/30 05:57:25 | INFO | root | Predicted structure for ENSOCUP00000026846.2 pep scaffold:OryCun2.0:GL018706:124034:126361:1 with length 775, pLDDT 80.7, pTM 0.524 in 95.7s. 18 / 18 completed.
