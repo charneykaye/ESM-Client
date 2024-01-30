@@ -9,7 +9,7 @@ sequence_names = []
 fasta_sequences = []
 
 # Parse the input FASTA file
-with open('inputs/input_large.fasta', 'r') as file:
+with open('inputs/input_small.fasta', 'r') as file:
     for line in file:
         line = line.strip()
         if line.startswith('>'):  # Start of a new sequence
