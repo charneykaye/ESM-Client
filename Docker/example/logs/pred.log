@@ -1,3 +1,7 @@
-]2;conda activate py39-esmfold]1;]2;esm-fold $@]1;24/01/27 11:05:58 | INFO | root | Reading sequences from /input/1a2y-HLC.fasta
-24/01/27 11:05:58 | INFO | root | Loaded 1 sequences from /input/1a2y-HLC.fasta
-24/01/27 11:05:58 | INFO | root | Loading model
+]2;conda activate py39-esmfold]1;]2;esm-fold $@]1;24/01/30 05:38:23 | INFO | root | Reading sequences from /input/1a2y-HLC.fasta
+24/01/30 05:38:23 | INFO | root | Loaded 3 sequences from /input/1a2y-HLC.fasta
+24/01/30 05:38:23 | INFO | root | Loading model
+24/01/30 05:39:19 | INFO | root | Starting Predictions
+24/01/30 05:40:08 | INFO | root | Predicted structure for MCHU - Calmodulin - Human, rabbit, bovine, rat, and chicken with length 150, pLDDT 76.9, pTM 0.482 in 16.4s (amortized, batch size 3). 1 / 3 completed.
+24/01/30 05:40:08 | INFO | root | Predicted structure for gi|5524211|gb|AAD44166.1| cytochrome b [Elephas maximus maximus] with length 284, pLDDT 86.6, pTM 0.876 in 16.4s (amortized, batch size 3). 2 / 3 completed.
+24/01/30 05:40:08 | INFO | root | Predicted structure for 1a2y_0P|H:L:C with length 355, pLDDT 80.1, pTM 0.595 in 16.4s (amortized, batch size 3). 3 / 3 completed.

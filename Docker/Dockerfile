@@ -8,8 +8,7 @@ ARG USER_GID=$USER_UID
 # Create the user
 RUN groupadd --gid $USER_GID $USERNAME \
     && useradd --uid $USER_UID --gid $USER_GID -m $USERNAME \
-    #
-    # [Optional] Add sudo support. Omit if you don't need to install software after connecting.
+    # Add sudo support. For possibility of installing software
     && apt-get update \
     && apt-get install -y sudo \
     && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
@@ -38,7 +37,7 @@ RUN conda clean -a -y && pip cache purge
 
 # More Cleanup if needed
 
-# [Optional] Set the default user. Omit if you want to keep the default as root.
+# Set the default user. Omit for root
 USER $USERNAME
 
 # install oh-my-zsh for vscode
