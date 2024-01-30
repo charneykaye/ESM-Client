@@ -1,24 +1,22 @@
-]2;conda activate py39-esmfold]1;]2;esm-fold $@]1;24/01/30 03:32:51 | INFO | root | Reading sequences from /input/batch_1.fasta
-24/01/30 03:32:51 | INFO | root | Loaded 20 sequences from /input/batch_1.fasta
-24/01/30 03:32:51 | INFO | root | Loading model
-24/01/30 03:33:57 | INFO | root | Starting Predictions
-24/01/30 03:34:20 | INFO | root | Predicted structure for ENSOCUP00000020305.2 pep chromosome:OryCun2.0:X:30959369:30959857:1 g with length 89, pLDDT 64.6, pTM 0.338 in 3.8s (amortized, batch size 6). 1 / 20 completed.
-24/01/30 03:34:20 | INFO | root | Predicted structure for ENSOCUP00000023246.1 pep chromosome:OryCun2.0:X:33028297:33028704:1 g with length 135, pLDDT 54.6, pTM 0.471 in 3.8s (amortized, batch size 6). 2 / 20 completed.
-24/01/30 03:34:20 | INFO | root | Predicted structure for ENSOCUP00000014831.3 pep scaffold:OryCun2.0:GL018751:116918:119301:1 with length 136, pLDDT 51.1, pTM 0.228 in 3.8s (amortized, batch size 6). 3 / 20 completed.
-24/01/30 03:34:20 | INFO | root | Predicted structure for ENSOCUP00000014108.3 pep chromosome:OryCun2.0:12:20964786:20966649:1 with length 179, pLDDT 62.5, pTM 0.374 in 3.8s (amortized, batch size 6). 4 / 20 completed.
-24/01/30 03:34:20 | INFO | root | Predicted structure for ENSOCUP00000022955.3 pep scaffold:OryCun2.0:GL018699:20037:21583:1 ge with length 218, pLDDT 89.7, pTM 0.882 in 3.8s (amortized, batch size 6). 5 / 20 completed.
-24/01/30 03:34:20 | INFO | root | Predicted structure for ENSOCUP00000011493.2 pep scaffold:OryCun2.0:GL018734:725646:741670:-1 with length 228, pLDDT 81.1, pTM 0.743 in 3.8s (amortized, batch size 6). 6 / 20 completed.
-24/01/30 03:34:55 | INFO | root | Predicted structure for ENSOCUP00000008047.2 pep scaffold:OryCun2.0:GL018866:201612:230223:-1 with length 278, pLDDT 81.0, pTM 0.653 in 11.6s (amortized, batch size 3). 7 / 20 completed.
-24/01/30 03:34:55 | INFO | root | Predicted structure for ENSOCUP00000032885.1 pep chromosome:OryCun2.0:4:37128911:37134534:1 g with length 302, pLDDT 82.0, pTM 0.544 in 11.6s (amortized, batch size 3). 8 / 20 completed.
-24/01/30 03:34:55 | INFO | root | Predicted structure for ENSOCUP00000021842.2 pep chromosome:OryCun2.0:1:191608049:191645307:- with length 357, pLDDT 77.7, pTM 0.529 in 11.6s (amortized, batch size 3). 9 / 20 completed.
-24/01/30 03:35:50 | INFO | root | Predicted structure for ENSOCUP00000030524.1 pep chromosome:OryCun2.0:14:98968609:98977992:-1 with length 382, pLDDT 73.8, pTM 0.711 in 27.9s (amortized, batch size 2). 10 / 20 completed.
-24/01/30 03:35:50 | INFO | root | Predicted structure for ENSOCUP00000048601.1 pep chromosome:OryCun2.0:13:79866463:79888713:1 with length 497, pLDDT 77.5, pTM 0.681 in 27.9s (amortized, batch size 2). 11 / 20 completed.
-24/01/30 03:36:19 | INFO | root | Predicted structure for ENSOCUP00000027246.1 pep chromosome:OryCun2.0:16:66348190:66368032:1 with length 504, pLDDT 80.8, pTM 0.816 in 28.6s. 12 / 20 completed.
-24/01/30 03:36:53 | INFO | root | Predicted structure for ENSOCUP00000041740.1 pep chromosome:OryCun2.0:3:20229453:20271062:1 g with length 526, pLDDT 78.9, pTM 0.707 in 33.6s. 13 / 20 completed.
-24/01/30 03:37:30 | INFO | root | Predicted structure for ENSOCUP00000000374.4 pep chromosome:OryCun2.0:16:66348190:66371480:1 with length 548, pLDDT 87.7, pTM 0.864 in 37.4s. 14 / 20 completed.
-24/01/30 03:38:18 | INFO | root | Predicted structure for ENSOCUP00000016762.2 pep scaffold:OryCun2.0:GL019008:27909:36314:-1 g with length 601, pLDDT 82.9, pTM 0.605 in 48.4s. 15 / 20 completed.
-24/01/30 03:39:21 | INFO | root | Predicted structure for ENSOCUP00000029235.1 pep chromosome:OryCun2.0:9:54945188:55137834:-1 with length 661, pLDDT 67.4, pTM 0.573 in 62.8s. 16 / 20 completed.
-24/01/30 03:40:27 | INFO | root | Predicted structure for ENSOCUP00000030686.1 pep chromosome:OryCun2.0:15:60752041:60754065:-1 with length 674, pLDDT 83.3, pTM 0.878 in 65.8s. 17 / 20 completed.
-24/01/30 03:41:55 | INFO | root | Predicted structure for ENSOCUP00000025600.2 pep scaffold:OryCun2.0:GL019008:27909:36979:-1 g with length 755, pLDDT 85.1, pTM 0.681 in 88.1s. 18 / 20 completed.
-24/01/30 03:43:58 | INFO | root | Predicted structure for ENSOCUP00000010139.4 pep chromosome:OryCun2.0:12:96801228:96909282:1 with length 864, pLDDT 72.7, pTM 0.704 in 123.3s. 19 / 20 completed.
-24/01/30 03:46:43 | INFO | root | Predicted structure for ENSOCUP00000043077.1 pep scaffold:OryCun2.0:GL019362:3769:45272:-1 ge with length 954, pLDDT 42.9, pTM 0.167 in 164.6s. 20 / 20 completed.
+]2;conda activate py39-esmfold]1;]2;esm-fold $@]1;24/01/30 04:25:40 | INFO | root | Reading sequences from /input/batch_1.fasta
+24/01/30 04:25:40 | INFO | root | Loaded 18 sequences from /input/batch_1.fasta
+24/01/30 04:25:40 | INFO | root | Loading model
+24/01/30 04:26:42 | INFO | root | Starting Predictions
+24/01/30 04:27:05 | INFO | root | Predicted structure for ENSOCUP00000029490.1 pep chromosome:OryCun2.0:17:42772630:42772689:1 with length 19, pLDDT 80.1, pTM 0.020 in 2.1s (amortized, batch size 11). 1 / 18 completed.
+24/01/30 04:27:05 | INFO | root | Predicted structure for ENSOCUP00000044673.1 pep chromosome:OryCun2.0:17:42756289:42756363:1 with length 24, pLDDT 80.0, pTM 0.173 in 2.1s (amortized, batch size 11). 2 / 18 completed.
+24/01/30 04:27:05 | INFO | root | Predicted structure for ENSOCUP00000034508.1 pep chromosome:OryCun2.0:17:42777599:42777676:1 with length 25, pLDDT 73.7, pTM 0.163 in 2.1s (amortized, batch size 11). 3 / 18 completed.
+24/01/30 04:27:05 | INFO | root | Predicted structure for seq4 with length 62, pLDDT 69.0, pTM 0.572 in 2.1s (amortized, batch size 11). 4 / 18 completed.
+24/01/30 04:27:05 | INFO | root | Predicted structure for ENSOCUP00000019735.2 pep chromosome:OryCun2.0:4:37009625:37009870:1 g with length 81, pLDDT 70.7, pTM 0.478 in 2.1s (amortized, batch size 11). 5 / 18 completed.
+24/01/30 04:27:05 | INFO | root | Predicted structure for ENSOCUP00000048496.1 pep chromosome:OryCun2.0:21:4805627:4805890:1 ge with length 87, pLDDT 83.3, pTM 0.804 in 2.1s (amortized, batch size 11). 6 / 18 completed.
+24/01/30 04:27:05 | INFO | root | Predicted structure for ENSOCUP00000018422.2 pep chromosome:OryCun2.0:17:42506545:42507786:1 with length 104, pLDDT 81.8, pTM 0.819 in 2.1s (amortized, batch size 11). 7 / 18 completed.
+24/01/30 04:27:05 | INFO | root | Predicted structure for seq1 with length 107, pLDDT 66.7, pTM 0.613 in 2.1s (amortized, batch size 11). 8 / 18 completed.
+24/01/30 04:27:05 | INFO | root | Predicted structure for ENSOCUP00000018729.2 pep chromosome:OryCun2.0:3:56611417:56613406:1 g with length 112, pLDDT 49.9, pTM 0.181 in 2.1s (amortized, batch size 11). 9 / 18 completed.
+24/01/30 04:27:05 | INFO | root | Predicted structure for MCHU - Calmodulin - Human, rabbit, bovine, rat, and chicken with length 149, pLDDT 76.6, pTM 0.482 in 2.1s (amortized, batch size 11). 10 / 18 completed.
+24/01/30 04:27:05 | INFO | root | Predicted structure for crab_bovin ALPHA CRYSTALLIN B CHAIN (ALPHA(B)-CRYSTALLIN). with length 175, pLDDT 58.5, pTM 0.466 in 2.1s (amortized, batch size 11). 11 / 18 completed.
+24/01/30 04:27:20 | INFO | root | Predicted structure for crab_human ALPHA CRYSTALLIN B CHAIN (ALPHA(B)-CRYSTALLIN). with length 175, pLDDT 57.6, pTM 0.456 in 3.7s (amortized, batch size 4). 12 / 18 completed.
+24/01/30 04:27:20 | INFO | root | Predicted structure for crab_rat ALPHA CRYSTALLIN B CHAIN (ALPHA(B)-CRYSTALLIN). with length 175, pLDDT 57.3, pTM 0.457 in 3.7s (amortized, batch size 4). 13 / 18 completed.
+24/01/30 04:27:20 | INFO | root | Predicted structure for ENSOCUP00000016355.2 pep chromosome:OryCun2.0:2:59517952:59750601:1 g with length 201, pLDDT 34.7, pTM 0.105 in 3.7s (amortized, batch size 4). 14 / 18 completed.
+24/01/30 04:27:20 | INFO | root | Predicted structure for ENSOCUP00000009421.3 pep chromosome:OryCun2.0:3:442600:454640:-1 gene with length 227, pLDDT 80.3, pTM 0.527 in 3.7s (amortized, batch size 4). 15 / 18 completed.
+24/01/30 04:27:34 | INFO | root | Predicted structure for gi|186681228|ref|YP_001864424.1| phycoerythrobilin:ferredoxin oxidore with length 255, pLDDT 92.0, pTM 0.947 in 6.8s (amortized, batch size 2). 16 / 18 completed.
+24/01/30 04:27:34 | INFO | root | Predicted structure for gi|5524211|gb|AAD44166.1| cytochrome b [Elephas maximus maximus] with length 284, pLDDT 86.3, pTM 0.873 in 6.8s (amortized, batch size 2). 17 / 18 completed.
+24/01/30 04:29:09 | INFO | root | Predicted structure for ENSOCUP00000026846.2 pep scaffold:OryCun2.0:GL018706:124034:126361:1 with length 775, pLDDT 80.7, pTM 0.524 in 95.5s. 18 / 18 completed.

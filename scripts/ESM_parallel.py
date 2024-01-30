@@ -7,7 +7,7 @@ from itertools import cycle
 sequence_names = []
 fasta_sequences = []
 
-with open('inputs/input.fasta', 'r') as file:
+with open('inputs/input_old.fasta', 'r') as file:
     for line in file:
         line = line.strip()
         if line.startswith('>'):  # Start of a new sequence
