@@ -1,0 +1,14 @@
+]2;conda activate py39-esmfold]1;]2;esm-fold $@]1;24/01/30 23:15:24 | INFO | root | Reading sequences from /input/batch_8.fasta
+24/01/30 23:15:24 | INFO | root | Loaded 10 sequences from /input/batch_8.fasta
+24/01/30 23:15:24 | INFO | root | Loading model
+24/01/30 23:17:03 | INFO | root | Starting Predictions
+24/01/30 23:17:23 | INFO | root | Predicted structure for ENSOCUP00000020874.1 pep scaffold:OryCun2.0:GL018827:469328:469609:-1 with length 93, pLDDT 55.4, pTM 0.092 in 5.0s (amortized, batch size 4). 1 / 10 completed.
+24/01/30 23:17:23 | INFO | root | Predicted structure for ENSOCUP00000031231.1 pep chromosome:OryCun2.0:1:104225604:104234438:1 with length 191, pLDDT 82.6, pTM 0.780 in 5.0s (amortized, batch size 4). 2 / 10 completed.
+24/01/30 23:17:23 | INFO | root | Predicted structure for ENSOCUP00000022955.3 pep scaffold:OryCun2.0:GL018699:20037:21583:1 ge with length 218, pLDDT 89.7, pTM 0.882 in 5.0s (amortized, batch size 4). 3 / 10 completed.
+24/01/30 23:17:23 | INFO | root | Predicted structure for ENSOCUP00000032885.1 pep chromosome:OryCun2.0:4:37128911:37134534:1 g with length 302, pLDDT 82.0, pTM 0.543 in 5.0s (amortized, batch size 4). 4 / 10 completed.
+24/01/30 23:17:54 | INFO | root | Predicted structure for ENSOCUP00000021842.2 pep chromosome:OryCun2.0:1:191608049:191645307:- with length 357, pLDDT 77.6, pTM 0.526 in 15.4s (amortized, batch size 2). 5 / 10 completed.
+24/01/30 23:17:54 | INFO | root | Predicted structure for ENSOCUP00000048601.1 pep chromosome:OryCun2.0:13:79866463:79888713:1 with length 497, pLDDT 77.5, pTM 0.681 in 15.4s (amortized, batch size 2). 6 / 10 completed.
+24/01/30 23:18:17 | INFO | root | Predicted structure for ENSOCUP00000012400.3 pep chromosome:OryCun2.0:3:20229453:20271062:1 g with length 580, pLDDT 75.4, pTM 0.677 in 23.7s. 7 / 10 completed.
+24/01/30 23:18:51 | INFO | root | Predicted structure for ENSOCUP00000001835.3 pep chromosome:OryCun2.0:7:16929178:16960386:1 g with length 664, pLDDT 55.2, pTM 0.205 in 34.0s. 8 / 10 completed.
+24/01/30 23:19:39 | INFO | root | Predicted structure for ENSOCUP00000017125.1 pep chromosome:OryCun2.0.1:15:60770181:60772472: with length 763, pLDDT 32.6, pTM 0.145 in 47.7s. 9 / 10 completed.
+24/01/30 23:20:44 | INFO | root | Predicted structure for ENSOCUP00000010139.4 pep chromosome:OryCun2.0:12:96801228:96909282:1 with length 864, pLDDT 72.7, pTM 0.704 in 65.0s. 10 / 10 completed.

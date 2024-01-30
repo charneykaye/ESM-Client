@@ -9,7 +9,7 @@ sequence_names = []
 fasta_sequences = []
 
 # Parse the input FASTA file
-with open('inputs/input_small.fasta', 'r') as file:
+with open('inputs/input_large.fasta', 'r') as file:
     for line in file:
         line = line.strip()
         if line.startswith('>'):  # Start of a new sequence
@@ -44,12 +44,12 @@ with open('inputs/input_small.fasta', 'r') as file:
 
 
 # Batch fasta sequences into groups and write each batch into a .fasta file, balancing the run time of each batch
-max_batches = 4
-max_gpus = 4
+max_batches = 8
+max_gpus = 8
 batch_files = []
 
 # Calculate the weight of each sequence using the derived equation
-weights = [2.3499 * exp(0.0050 * len(seq)) for seq in fasta_sequences]
+weights = [2.3899 * exp(0.0039 * len(seq)) for seq in fasta_sequences]
 total_weight = sum(weights)
 
 # Helper function to write a batch to a file and print stats
@@ -62,7 +62,7 @@ def write_batch(batch_num, batch_data):
     with open(f'batches/{batch_file_name}', 'w') as batch_file:
         for name, sequence, _ in batch_data:
             batch_file.write(f'>{name}\n{sequence}\n')
-    print(f'Batch {batch_num} written with {num_sequences} sequences, {total_length} total characters, and {total_weight:.2f} total weight.')
+    print(f'Batch {batch_num} written with {num_sequences} sequences, {total_length} total AAs, and {total_weight:.2f} total weight.')
 
 # Greedy algorithm to create batches with balanced weights
 # Sort sequences by weight in descending order
@@ -81,7 +81,6 @@ for i, batch_data in enumerate(batches, start=1):
     write_batch(i, batch_data)
 
 
-# 
 def generate_pdb(batch_file, gpu_id):
     """Function to run a Docker command for a given batch file of FASTA sequences on a specific GPU."""
     command = f'sudo docker run --rm --gpus device={gpu_id} -v $(pwd)/batches:/input -v $(pwd)/outputs:/output rexpository/esmfold -i /input/{batch_file} -o /output/{batch_file}.pdb > ./logs/{batch_file}_pred.log 2>./logs/{batch_file}_pred.err'
